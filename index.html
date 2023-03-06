@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class=" bg-slate-700 ">
+    <main>
+      <section
+        class="space-y-4 flex-col flex mx-auto rounded-md text-white text-5xl text-center font-semibold justify-center items-center gap-4 lg:w-96 w-fulllg:mt-20  h-96"
+      >
+        <div class="flex w-2/3 pl-12  text-center gap-3">
+          <div ><span id="first">00</span > :</div>
+          <div id="second">00</div>
+        </div>
+
+        <div class="w-96  flex justify-center gap-5 ">
+          <button
+            class="py-2 px-4 bg-green-500  text-white font-semibold text-xl bg-transparent border-2 border-slate-400 hover:bg-slate-800  transition-all"
+            id="start"
+          >
+            Start
+          </button>
+          <button
+            class="py-2 border-slate-400 px-4 border-2  text-white font-semibold text-xl bg-transparent hover:bg-slate-800  transition-all"
+            id="stop"
+          >
+            Stop
+          </button>
+          <button
+            class="py-2 border-slate-400 px-4 border-2  bg-transparent text-white font-semibold text-xl hover:bg-slate-800  transition-all"
+            id="Reset"
+          >
+            Reset
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
