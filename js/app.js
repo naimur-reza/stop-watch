@@ -34,7 +34,7 @@ const resetAudio = new Audio("./sound/car-horn.wav")
 
 document.getElementById("start").addEventListener("click", function () {
   const firstInt = parseFloat(first);
-   startInter = setInterval(myInterVal, 40);
+   startInter = setInterval(myInterVal, 10);
   startAudio.play();
 });
 
